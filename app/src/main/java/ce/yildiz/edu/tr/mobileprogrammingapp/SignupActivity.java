@@ -47,14 +47,14 @@ public class SignupActivity extends AppCompatActivity {
 
             databaseHelper.addUser(user);
 
-            // Toast to show success message that record saved successfully, and go to LoginScreen activity
+            // Toast to show success message that sign up successfully, and go to LoginScreen activity
             Toast.makeText(this, "Sign up successfully!", Toast.LENGTH_SHORT).show();
             Intent loginIntent = new Intent(SignupActivity.this, LoginScreen.class);
             startActivity(loginIntent);
             finish();
         }
         else {
-            // Toast to show error message that record already exists
+            // Toast to show error message that username already exists
             Toast.makeText(this, "This username already exists.\nTry another to sign up!", Toast.LENGTH_SHORT).show();
             username.setText("");
             password.setText("");
