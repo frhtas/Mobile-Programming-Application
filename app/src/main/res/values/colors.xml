@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#333333</color>
+    <color name="colorPrimaryDark">#444444</color>
+    <color name="colorAccent">#02727C</color>
+
+    <color name="colorBackground">#FFFFFF</color>
+    <color name="colorBackground2">#074E78</color>
+    <color name="colorBackground_cardView">#12020202</color>
+    <color name="colorBackgroundTint_editText">#777777</color>
+    <color name="colorBackround_note">#EEEEEE</color>
+    <color name="colorBackround_menu">#DDDDDD</color>
+    <color name="colorTextView">#777777</color>
+    <color name="colorEditText">#000000</color>
+
+</resources>
