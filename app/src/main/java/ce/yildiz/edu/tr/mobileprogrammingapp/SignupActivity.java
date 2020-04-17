@@ -55,7 +55,7 @@ public class SignupActivity extends AppCompatActivity {
         }
         else {
             // Toast to show error message that record already exists
-            Toast.makeText(this, "This username exists, try another username!", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "This username already exists.\nTry another to sign up!", Toast.LENGTH_SHORT).show();
             username.setText("");
             password.setText("");
         }
