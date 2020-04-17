@@ -40,8 +40,9 @@ public class WelcomeScreen extends AppCompatActivity {
             @Override
             public void run() {
                 Intent intent = new Intent(WelcomeScreen.this, LoginScreen.class);
+                intent.addFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
                 startActivity(intent);
-                WelcomeScreen.this.finish();
+                finish();
             }
         }, TIME);
     }

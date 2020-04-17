@@ -34,12 +34,6 @@ public class LoginScreen extends AppCompatActivity implements View.OnClickListen
         tosignup_button.setOnClickListener(this);
     }
 
-    @Override
-    public void onBackPressed() {
-        super.onBackPressed();
-        closeApp();
-    }
-
 
     // An override function which do something by the button, LOGIN or SIGN UP
     @Override
@@ -50,7 +44,9 @@ public class LoginScreen extends AppCompatActivity implements View.OnClickListen
                 String password = passwd.getText().toString().trim();
                 if (!username.equals("") && !password.equals("")) {
                     tryToLogin(username, password);
+                    break;
                 }
+                Toast.makeText(LoginScreen.this, "Please fill the Username and Password!", Toast.LENGTH_SHORT).show();
                 break;
 
             case R.id.tosignup_button:

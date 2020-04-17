@@ -29,7 +29,12 @@ public class SignupActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 String userName = username.getText().toString().trim();
-                tryToSignup(userName);
+                String passwd = password.getText().toString().trim();
+                if (!userName.equals("") && !passwd.equals("")) {
+                    tryToSignup(userName);
+                    return;
+                }
+                Toast.makeText(SignupActivity.this, "Please fill the Username and Password!", Toast.LENGTH_SHORT).show();
             }
         });
 
