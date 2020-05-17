@@ -46,4 +46,20 @@
     <string name="edit">Düzenle</string>
     <string name="delete">Sil</string>
     <string name="sign_up">KAYIT OL</string>
+    <string name="phone_amp_sms"><![CDATA[Telefon & SMS]]></string>
+    <string name="alarm">Alarm</string>
+    <string name="asynctask">AsyncTask</string>
+    <string name="download">İndir</string>
+    <string name="location">Konum</string>
+    <string name="update">GÜNCELLE</string>
+    <string name="imageicon">imageIcon</string>
+
+    <string name="bicycle">Bisiklet üzerinde: </string>
+    <string name="onfoot">Ayakta: </string>
+    <string name="running">Koşma: </string>
+    <string name="still">Hareketsiz: </string>
+    <string name="tilting">Sallanma: </string>
+    <string name="unknown_activity">Bilinmeyen aktivite: </string>
+    <string name="invehicle">Arabada: </string>
+    <string name="walking">Yürüme: </string>
 </resources>

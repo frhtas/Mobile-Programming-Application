@@ -11,7 +11,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_weight="3.6"
+        android:layout_weight="8"
         android:fontFamily="cursive"
         android:gravity="center"
         android:text="@string/welcome_to_my_first_app"
@@ -31,17 +31,15 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:gravity="center"
+            android:gravity="center|center_horizontal"
             android:orientation="horizontal">
 
             <Button
                 android:id="@+id/button_sendEmail"
-                android:layout_width="150dp"
-                android:layout_height="120dp"
+                android:layout_width="140dp"
+                android:layout_height="105dp"
                 android:layout_marginLeft="25dp"
-                android:layout_marginTop="40dp"
                 android:layout_marginRight="25dp"
-                android:layout_marginBottom="25dp"
                 android:background="@drawable/rounded"
                 android:drawableTop="@drawable/ic_menu_sendmail"
                 android:text="@string/send_e_mail"
@@ -50,12 +48,10 @@
 
             <Button
                 android:id="@+id/button_userList"
-                android:layout_width="150dp"
-                android:layout_height="120dp"
+                android:layout_width="140dp"
+                android:layout_height="105dp"
                 android:layout_marginLeft="25dp"
-                android:layout_marginTop="40dp"
                 android:layout_marginRight="25dp"
-                android:layout_marginBottom="25dp"
                 android:background="@drawable/rounded"
                 android:drawableTop="@drawable/ic_menu_userlist"
                 android:gravity="center"
@@ -68,17 +64,15 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:gravity="center"
+            android:gravity="center|center_horizontal"
             android:orientation="horizontal">
 
             <Button
                 android:id="@+id/button_userSettings"
-                android:layout_width="150dp"
-                android:layout_height="120dp"
+                android:layout_width="140dp"
+                android:layout_height="105dp"
                 android:layout_marginLeft="25dp"
-                android:layout_marginTop="25dp"
                 android:layout_marginRight="25dp"
-                android:layout_marginBottom="25dp"
                 android:background="@drawable/rounded"
                 android:drawableTop="@drawable/ic_menu_sharedpreferences"
                 android:text="@string/user_settings"
@@ -87,12 +81,10 @@
 
             <Button
                 android:id="@+id/button_sensorList"
-                android:layout_width="150dp"
-                android:layout_height="120dp"
+                android:layout_width="140dp"
+                android:layout_height="105dp"
                 android:layout_marginLeft="25dp"
-                android:layout_marginTop="25dp"
                 android:layout_marginRight="25dp"
-                android:layout_marginBottom="25dp"
                 android:background="@drawable/rounded"
                 android:drawableTop="@drawable/ic_menu_sensorlist"
                 android:text="@string/sensor_list"
@@ -104,17 +96,15 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:gravity="center"
+            android:gravity="center|center_horizontal"
             android:orientation="horizontal">
 
             <Button
                 android:id="@+id/button_notes"
-                android:layout_width="150dp"
-                android:layout_height="120dp"
+                android:layout_width="140dp"
+                android:layout_height="105dp"
                 android:layout_marginLeft="25dp"
-                android:layout_marginTop="25dp"
                 android:layout_marginRight="25dp"
-                android:layout_marginBottom="40dp"
                 android:background="@drawable/rounded"
                 android:drawableTop="@drawable/ic_menu_notes"
                 android:text="@string/notes"
@@ -122,19 +112,83 @@
                 android:textSize="18sp" />
 
             <Button
-                android:id="@+id/button_exit"
-                android:layout_width="150dp"
-                android:layout_height="120dp"
+                android:id="@+id/button_asyncTask"
+                android:layout_width="140dp"
+                android:layout_height="105dp"
                 android:layout_marginLeft="25dp"
-                android:layout_marginTop="25dp"
                 android:layout_marginRight="25dp"
-                android:layout_marginBottom="40dp"
+                android:background="@drawable/rounded"
+                android:drawableTop="@drawable/ic_menu_asynctask"
+                android:text="@string/asynctask"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center|center_horizontal"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button_alarm"
+                android:layout_width="140dp"
+                android:layout_height="105dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:background="@drawable/rounded"
+                android:drawableTop="@drawable/ic_menu_alarm"
+                android:text="@string/alarm"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/button_location"
+                android:layout_width="140dp"
+                android:layout_height="105dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:background="@drawable/rounded"
+                android:drawableTop="@drawable/ic_button_sendlocation"
+                android:text="@string/location"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center|center_horizontal"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button_phoneSms"
+                android:layout_width="140dp"
+                android:layout_height="105dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:background="@drawable/rounded"
+                android:drawableTop="@drawable/ic_menu_phonesms"
+                android:text="@string/phone_amp_sms"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/button_exit"
+                android:layout_width="140dp"
+                android:layout_height="105dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
                 android:background="@drawable/rounded"
                 android:drawableTop="@drawable/ic_menu_exit"
                 android:text="@string/exit"
                 android:textColor="#FFFFFF"
                 android:textSize="18sp" />
         </LinearLayout>
+
 
     </LinearLayout>
 </LinearLayout>

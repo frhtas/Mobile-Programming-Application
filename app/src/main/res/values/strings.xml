@@ -45,4 +45,20 @@
     <string name="edit">Edit</string>
     <string name="delete">Delete</string>
     <string name="sign_up">SIGN UP</string>
+    <string name="phone_amp_sms"><![CDATA[Phone & SMS]]></string>
+    <string name="alarm">Alarm</string>
+    <string name="asynctask">AsyncTask</string>
+    <string name="download">Download</string>
+    <string name="location">Location</string>
+    <string name="update">UPDATE</string>
+    <string name="imageicon">imageIcon</string>
+
+    <string name="bicycle">On a bicycle: </string>
+    <string name="onfoot">On foot: </string>
+    <string name="running">Running: </string>
+    <string name="still">Still: </string>
+    <string name="tilting">Tilting: </string>
+    <string name="unknown_activity">Unknown activity: </string>
+    <string name="invehicle">In a vehicle: </string>
+    <string name="walking">Walking: </string>
 </resources>

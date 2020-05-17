@@ -1,7 +1,6 @@
 package ce.yildiz.edu.tr.mobileprogrammingapp;
 
 import android.content.Context;
-import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
@@ -13,6 +12,8 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.app.AppCompatDelegate;
 
+
+// An activity which handle user settings with Shared Preferences
 public class SharedPreferencesActivity extends AppCompatActivity {
     EditText editText_username, editText_age, editText_height, editText_weight;
     RadioGroup radioGroup_gender, radioGroup_language;
@@ -49,8 +50,6 @@ public class SharedPreferencesActivity extends AppCompatActivity {
         radioGroup_language = (RadioGroup)findViewById(R.id.radioGroup_language);
         switch_mode = (Switch)findViewById(R.id.switch_mode);
         button_save = (Button)findViewById(R.id.button_save);
-
-
 
 
         button_save.setOnClickListener(new View.OnClickListener() {
